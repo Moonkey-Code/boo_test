@@ -36,7 +36,7 @@ class ProfileCard extends StatelessWidget {
               child: Image.network(
                 profile.imageUrl,
                 fit: BoxFit.cover,
-                errorBuilder: (_, __, ___) => Container(color: Colors.grey[900]),
+                errorBuilder: (_, _, _) => Container(color: Colors.grey[900]),
               ),
             ),
 

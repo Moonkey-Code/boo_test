@@ -1,5 +1,4 @@
 // lib/bloc/match_cubit.dart
-// Cleaned, structured, and fully documented version
 
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -58,14 +57,12 @@ class MatchCubit extends Cubit<MatchState> {
   /// Removes the current profile and moves forward logically.
   /// Used when the user performs a "pass" action.
   void pass() {
-    print("PASS");
     _removeCurrent("pass");
   }
 
   /// Removes the current profile and moves forward logically.
   /// Used when the user performs a "like" action.
   void like() {
-    print("LIKE");
     _removeCurrent("like");
   }
 

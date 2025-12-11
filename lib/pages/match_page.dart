@@ -5,15 +5,6 @@ import '../models/user_profile.dart';
 import '../widgets/profile_card.dart';
 import '../widgets/action_row.dart';
 
-/// NOTE: This extension is assumed to exist in the original context
-/// to support the non-standard `.withValues(alpha: ...)` usage found in the code.
-extension ColorAlphaExtension on Color {
-  Color withValues({double alpha = 1.0}) {
-    // Implementing the assumed functionality to control opacity/alpha
-    return this.withOpacity(alpha);
-  }
-}
-
 /// The main profile matching screen where users can view and swipe profiles.
 ///
 /// This StatefulWidget manages the animation state for the profile card

@@ -1,5 +1,4 @@
 // match_state.dart
-// Detailed and production-ready version with senior-level documentation.
 // Part of the Match Cubit state-management system.
 
 part of 'match_cubit.dart';

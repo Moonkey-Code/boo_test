@@ -1,5 +1,4 @@
 // user_profile.dart
-// Clean, production-grade data model with full documentation.
 // Designed for use in state-management, network parsing, and UI rendering.
 
 /// Core immutable data model representing a user's profile
